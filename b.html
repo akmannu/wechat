@@ -1,0 +1,183 @@
+<html>
+<title> facebook </title>
+<head>
+<style>
+    body{
+        
+        
+        margin: 0;
+        padding: 0;
+        font-family:cursive;
+    } 
+#header {
+  border: 0px solid;
+  background-color: lightseagreen;
+    height: 100px;
+    width: 100%;
+    color: cornflowerblue;
+    
+}
+.headtitle
+    {   color: white;
+        font-family: Lucida Handwriting;
+        font-size: 40;
+        float: left;
+        padding: none;
+    }
+    .headform
+    {
+        font-family: cursive;
+        float: right;
+        padding: none;
+    }
+.fl
+    {
+        float: left;
+    
+    }
+.fr
+    {
+        float: right;
+        
+    }
+    .biginput{
+        padding: 5px;
+        border-radius: 7px;
+    }    
+    
+    
+</style>    
+    
+</head> 
+ <body>
+ <div id="header" >
+    <div class="fl id="headertitle"" >We chat</div>
+      <div class="fr" id="headerlogin">
+             <form name="frmlogin" method="post" action="handlelogin.php">
+                  <div class="fr" style="padding-right: 20px;">
+                 <br> <input type="submit"  name="btnlogin"value="Login" style="background-color: darkgray; color: aliceblue;"></div>
+           <div class="fr" style="padding-right: 20px;">
+        Password<br>  <input type="pasword" name="pwd" placeholder="password">
+         <br> <a href="forgetpwd.php" style="color: blueviolet;text-decoration: none;">Forget password</a></div>
+        <div class="fr" style="padding-right: 20px;">         
+             Email<br><input type="text" name="emial" placeholder="emailid"> <br>
+          <input type="checkbox" name="chkkeeplogin">Keep me logged in 
+         </div>
+            </form>              
+            </div>
+        
+        
+    
+        
+        
+
+    
+    
+    <div id="midcontent">
+        
+        <div class="fl" style="width: 100550px; padding-left: 150px; border: 0px solid; margin-left: 10px;">  
+        Connect with friends and the<br>
+            people around you<br><br>
+            See photos from  friends<br>
+            <br>
+            Share your life with others<br><br>
+            Find the friend you are looking for<br><br>
+          </div>
+      <div class="fr" style="border: 0px solid; margin-left: 10px;">     
+        <table style="float: left;" border="0">
+          
+          <form name="frmregs" method="post" action="handleregistration.php">
+            <tr><td colspan="2" style="font-size: 48px">Sign up</td></tr>
+            <tr><td colspan="2"></td></tr>
+            <tr><td width="150">
+                <input class="biginput" type="text" placeholder="first name" name ="firstname" style="width: 150px;"></td>
+              <td> <input class="biginput" type="text" name="lastname" placeholder="last name" style="width: 150px;"></td>
+               </tr>
+            <tr> <td colspan="2"><input class="biginput" name="emailreg" type="text" placeholder="Email" style="width: 304px;"> </td></tr>
+          <tr> <td colspan="2"><input class="biginput" name="mobileno" type="text" placeholder="Mobile no" style="width: 304px;"> </td></tr> 
+          <tr> <td colspan="2"><input class="biginput" name="password" type="password" placeholder="New password" style="width: 304px;"> </td></tr>
+        <tr> <td colspan="2" style="font-size: 16px"> Birthday</td></tr>   
+        <tr> <td colspan="2" > <select class="biginput" name="month">
+        <option> Month</option>
+        <option value="01">Jan</option>
+        <option value="02"> Feb</option>
+        <option value="03">Mar</option>
+       <option value="04"> Apr</option>
+        <option value="05"> May </option> 
+       <option value="06"> Jun</option>
+    <option value="07">Jul</option>
+    <option value="08" >Aug</option>   
+    <option value="09">Sep</option>
+    <option value="10">Oct</option>
+    <option value="11">Nov</option>
+    <option value="12"> Dec</option>        </select>
+     <select class="biginput" name="day">
+            <option> Day</option>
+         <?php for($i=0;$i<=31;$i++)
+echo "<option value=$i>$i</option>";
+?>
+  </select>  
+<select class="biginput" name="year">
+<option> Year</option> 
+    <?php for($i=date("Y"); $i>=date("Y")-90;$i--) echo "<option value=$i> $i</option>";
+            ?>
+</select>            
+ </td></tr>
+              
+<tr> <td colspan="2"> <input type="radio" name="rdogen" value="F/female">
+    <input type="radio" name="rdogen" value="M"> male</td></tr>  
+<tr> <td colspan="2" width="350"> By clicking Sign up,you agree to our terms and that you have read our data policy,including our cookie use.</td></tr>
+<tr><td colspan="2"><input class="bigdate" name="btnsignup" type="submit" value="sign up" style="background-color: blanchedalmond; width: 150px;"></td></tr>
+              
+              
+            
+</form>
+          
+</table>
+          </div>
+        
+        
+        
+    <div style="clear: both;"></div>    
+    
+        
+        
+    </div>
+    
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
