@@ -16,8 +16,7 @@
            padding-left: 40px;
            padding-top: 20px;
            background-color: white;
-
-         }
+        }
          .fl{
            float: right;
          }
@@ -30,6 +29,7 @@
     padding-right: 70px;
     margin:50px;
     background-color: grey;
+      
   }
   #style1{
     width:100px;
@@ -57,8 +57,7 @@ font-family: 'Permanent Marker', cursive;
 {
   color:grey;
 }
-
-      </style>
+</style>
 
 
   </head>
@@ -116,8 +115,7 @@ font-family: 'Permanent Marker', cursive;
             <a class="dropdown-item" href="#">Javascript</a>
       </div>
     </li>
-
-      <li class="nav-item dropdown">
+    <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
         <b>STUDENT</b>
           </a>
@@ -137,14 +135,8 @@ font-family: 'Permanent Marker', cursive;
             <a class="dropdown-item" href="#">JavaScript</a>
               <a class="dropdown-item" href="#">SQL</a>
               <a class="dropdown-item" href="#">Data Structure</a>
-                <a class="dropdown-item" href="#">Language</a>
-
-          </div>
-          </li>
-         </ul>
-
-
-</nav>
+            <a class="dropdown-item" href="#">Language</a></div></li></ul>
+            </nav>
 </div>
   <div class="container-fluid">
     <div class="row" id="row1">
