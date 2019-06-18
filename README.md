@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -62,7 +62,6 @@ font-family: 'Permanent Marker', cursive;
 
   </head>
   <body>
-<!title>
   <div class="container-fluid" id="con1">
       <div class="row">
         <div class="col-lg-8">
@@ -73,8 +72,7 @@ font-family: 'Permanent Marker', cursive;
   </form>
    </div>
   </div>
-   <!navigationbar>
- </div class="container-fluid">
+  <div class="container-fluid">
 
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
